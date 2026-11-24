@@ -65,7 +65,7 @@ aks-e2e/
 
 Chaque phase se termine par quelque chose de **vérifiable**.
 
-- [ ] **Phase 0 — Prérequis** : outils locaux (az, terraform, kubectl, helm, gh, docker), 3 repos GitHub créés, nom de domaine choisi
+- [x] **Phase 0 — Prérequis** : outils locaux (az, terraform, kubectl, helm, gh, docker), 3 repos GitHub créés, nom de domaine choisi
 - [ ] **Phase 1 — Bootstrap** : Storage Account du state, Managed Identity GitHub + federated credentials ✔ `terraform init` sur le backend distant
 - [ ] **Phase 2 — Réseau** : hub/spoke, subnets, NSG, NAT Gateway, Private DNS zones ✔ peering « Connected »
 - [ ] **Phase 3 — Services socle** : ACR, Key Vault, Log Analytics, zone DNS + délégation Namecheap ✔ `nslookup -type=NS`
